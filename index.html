@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Srinath Vislavath - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <div class="container"> 
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Hobbies">Hobbies</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <i class="fa fa-window-close" onclick="closemenu()" aria-hidden="true"></i>
+                </ul>
+                <i class="fa fa-bars" onclick="openmenu()" aria-hidden="true"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer | Cloud Engineer</p>
+                <h1><br>Hi, I'm <span>Srinath Vislavath</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="About"> 
+        <div class="container">
+            <div class="row">
+                <div class="Aboutc1">
+                    <img src="images/mypic.jpeg" alt="Srinath Vislavath">
+                </div>
+                <div class="Aboutc2">
+                    <h1 class="subtitle">Summary</h1>
+                    <p><br>Experienced Full Stack Developer with a background in cloud infrastructure, data engineering, and application performance optimization. Skilled in technologies like Java, Python, Docker, Kubernetes, and AWS.</p>
+                    <div class="tabtitles">
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Python, Java, C#, SQL, C++, R</li>
+                            <li><span>Frameworks</span><br>React, Angular, Spring Boot, Django, Flask, Bootstrap</li>
+                            <li><span>Tools & Cloud</span><br>Docker, Kubernetes, AWS, Microsoft Azure, Visual Studio Code</li>
+                            <li><span>Soft Skills</span><br>Collaborative, Teamwork, Problem Solving, Time Management, Adaptability, Communication</li>
+                            <li><span>Database</span><br>MongoDB, SQL Server, Oracle, MYSQL, Postgres</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Aug 2023 - Jul 2024</span><br>Graduate Assistant, Saint Cloud State University, USA</li>
+                            <li><span>Jul 2021 - Nov 2022</span><br>System Engineer, Infosys, Hyderabad</li>
+                            <li><span>Oct 2020 - May 2021</span><br>System Engineer Intern, Infosys, Hyderabad</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Jan 2023 - May 2025</span><br>M.S. in Computer Science, Saint Cloud State University</li>
+                            <li><span>Aug 2017 - Jun 2021</span><br>Bachelor of Engineering, Chaitanya Bharati Institute of Technology, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <section id="Projects">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work11.jpg" alt="">
+                    <div class="layer">
+                        <h3>3D Avatar Drone Navigation System</h3>
+                        <p>Developed a drone control system using neural networks and brainwave inputs.</p>
+                        <a href="https://github.com/vislavathsrinath/Avatar" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work22.png" alt="">
+                    <div class="layer">
+                        <h3> AI CHAT SUPPORT  </h3>
+                        <p>An AI chat support bot is a virtual assistant designed to interact with users, answer questions, and resolve common issues in real-time</p>
+                        <a href="https://github.com/vislavathsrinath/aichatsupport" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work33.jpg" alt="">
+                    <div class="layer">
+                        <h3>Pantry management</h3>
+                        <p>Pantry management simplifies tracking pantry items, helping users monitor stock levels and expiration dates. It reduces waste, aids grocery planning, and ensures an organized kitchen inventory</p>
+                        <a href="https://pantrytracker-vislavathsrinaths-projects.vercel.app/" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/vislavathsrinath" class="btn">See More</a>
+        </div>
+     </section>
+
+    <!-- Hobbies Section -->
+<section id="Hobbies">
+    <div class="container">
+        <h1 class="subtitle">Hobbies</h1>
+        <div class="hobby-content">
+            <!-- Sports & Games Hobby -->
+            <div class="hobby-item">
+                <h3>Sports & Games</h3>
+                <p>I enjoy staying active through various sports and games, particularly billiards, table tennis, badminton, and cricket. 
+                Each game brings a unique set of challenges and skills:
+                    <ul>
+                        <li><strong>Billiards:</strong> A game of precision and patience that sharpens my focus and strategy.</li>
+                        <li><strong>Table Tennis:</strong> Quick reflexes and agility are key, making it an exhilarating workout.</li>
+                        <li><strong>Badminton:</strong> Combines speed, strength, and skill, and is a fantastic way to stay fit.</li>
+                        <li><strong>Cricket:</strong> A team sport I enjoy for its mix of strategy and teamwork, creating both challenges and bonding moments.</li>
+                    </ul>
+                </p>
+            </div>
+
+            <!-- Creative Writing Hobby -->
+            <div class="hobby-item">
+                <h3>Creative Writing</h3>
+                <p>Writing poems and short stories has always been a fulfilling way for me to express my creativity and emotions. Through writing, 
+                I explore different genres, themes, and character perspectives, which allows me to connect with readers on various emotional levels.
+                    <ul>
+                        <li><strong>Poetry:</strong> I use poetry to capture fleeting emotions and convey thoughts concisely and vividly.</li>
+                        <li><strong>Short Stories:</strong> Writing short stories allows me to develop narratives that highlight diverse life experiences, often with surprising twists or meaningful reflections.</li>
+                    </ul>
+                Engaging in creative writing has taught me patience, observation, and empathy, enhancing both my personal and professional life.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> vislavathsrinath1211@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i> +1 (763) 313-4211</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/srinath-vislavath-3668b41b3/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href="https://github.com/vislavathsrinath"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/sri_112_"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/srinath.vislavath"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/nameis.sri12/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <a href="images/srinath_vislavath_resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form id="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="E-mail" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Srinath Vislavath | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Srinath</p>
+        </div>
+    </section>
+
+    <!-- JavaScript for Tabs and Menu -->
+    <script>
+        var tablink=document.getElementsByClassName("tablinks");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(let tab of tablink){
+                 tab.classList.remove("active-link");
+            }
+            for(let content of tabcontents){
+                content.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
